@@ -92,8 +92,8 @@ if (isset($_GET['st']) && isset($_GET['pb'])) {
     $pradzia = intval($_GET['st']);
     $galas = intval($_GET['pb']);
 } else {
-    $pradzia = 1;
-    $galas = 10;
+    $pradzia = 5;
+    $galas = 30;
 }
 
 $histogramGenerator = new HistogramGenerator($pradzia, $galas);
